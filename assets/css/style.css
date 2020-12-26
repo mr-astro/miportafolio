@@ -15,4 +15,13 @@ header {
     background-position: left;
     padding-bottom: 20rem;
     vertical-align: bottom;
-  }
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-weight: 200;
+}
+
