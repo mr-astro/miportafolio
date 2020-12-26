@@ -12,16 +12,33 @@ header {
     background-image: url('../img/bg-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    padding-bottom: 20rem;
-    vertical-align: bottom;
+    background-position: center;
+    padding-bottom: 25rem;
+}
+
+header h1 {
+    font-family: "Anton",sans-serif;
+    position: relative;
+    top: 25rem;
+    left: 0;
+    color: #ffffff;
+}
+
+header h2:after {
+    font-family: "Yanone",sans-serif;
+    position: relative;
+    top: 25rem;
+    left: 0;
+    color: #ffffff;
+    content: "YO SOY";
+    display: block;
+    margin: 0;
+    width: 30%;
+    padding-top: 2rem;
+    border-bottom: 3px solid #ffffff;
 }
 
 .card-title {
     font-weight: 700;
-}
-
-.card-text {
-    font-weight: 200;
 }
 
