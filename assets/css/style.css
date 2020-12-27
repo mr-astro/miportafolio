@@ -20,25 +20,37 @@ header h1 {
     font-family: "Anton",sans-serif;
     position: relative;
     top: 25rem;
-    left: 0;
+    left: 2rem;
     color: #ffffff;
+    padding-top: 0.5rem;
 }
 
 header h2:after {
     font-family: "Yanone",sans-serif;
     position: relative;
     top: 25rem;
-    left: 0;
+    left: 2rem;
     color: #ffffff;
     content: "YO SOY";
     display: block;
     margin: 0;
-    width: 30%;
-    padding-top: 2rem;
+    width: 25%;
+    padding-bottom: 0.5rem;
     border-bottom: 3px solid #ffffff;
 }
 
 .card-title {
     font-weight: 700;
+}
+
+.carousel-indicators {
+    top: 105%;
+}
+
+.carousel-indicators li {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #373a3c;
 }
 

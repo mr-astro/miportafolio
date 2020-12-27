@@ -52,12 +52,15 @@
     </nav>
 
     <!--Seccion 2 header-->
-    <header id="inicio">
+    <header id="inicio" class="hero">
         <div class="container">
-            <h2></h2>
-        </div>
-        <div class="container">
-            <h1>DANIEL CANALES</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2></h2>
+                    <h1>DANIEL CANALES</h1>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
         </div>
     </header>
 
@@ -67,26 +70,77 @@
     </section>
 
     <!--Seccion 4 Experiencia-->
-    <section id="experiencia" class="container py-5">
-        <h2 class="display-5 text-center font-weight-bold text-dark mb-3 pb-3" style="border-bottom: 5px solid">MI EXPERIENCIA</h2>
+    <section id="experiencia" class="container d-none d-md-block py-5">
+        <h2 class="display-5 text-center font-weight-bold text-dark mb-3 pb-3" style="border-bottom: 5px solid">MI
+            EXPERIENCIA</h2>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner py-5">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-html5 fa-4x">HTML</i>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-css3-alt fa-4x">CSS</i>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-js-square fa-4x">JS</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-react fa-4x">REACT</i>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-php fa-4x">PHP</i>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-xl-4">
+                            <i class="fab fa-laravel fa-4x">Laravel</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <i class="fab fa-python fa-4x">Python</i>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <i class="fas fa-server fa-4x">SQL Server</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Seccion 5 Trabajos-->
-    <main id="trabajos" class="bg-dark py-5">
+    <main id="trabajos" class="bg-dark py-4">
         <section class="container">
-            <h2 class="display-5 text-center font-weight-bold text-white mb-3 py-3" style="border-bottom: 5px solid">MIS ÚLTIMOS TRABAJOS</h2>
+            <h2 class="display-5 text-center font-weight-bold text-white mb-3 py-3" style="border-bottom: 5px solid">MIS
+                ÚLTIMOS TRABAJOS</h2>
             <div class="row">
 
                 <!--Tarjeta Meet&Coffe-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/meetcoffe.jpg" class="card-img-top" alt="Web Meet & Coffe" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/meetcoffe.jpg" class="card-img-top" alt="Web Meet & Coffe"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Meet & Coffe</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                        of
-                                        the
-                                        card's content.</p>
+                            <p class="card-text">Primer desafio realizado en clases, me sirvió para actualizarme y comenzar nuevamente.</p>
                         </div>
                     </div>
                 </div>
@@ -94,13 +148,11 @@
                 <!--Tarjeta Iguana-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/iguana.jpg" class="card-img-top" alt="Web Iguana" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/iguana.jpg" class="card-img-top" alt="Web Iguana"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Iguana</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+                            <p class="card-text">Desafio orientado a la implementacion de grillas y Font Awesome por medio de las etiquetas html.</p>
                         </div>
                     </div>
                 </div>
@@ -108,13 +160,11 @@
                 <!--Tarjeta Cuppon-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/cuppon.jpg" class="card-img-top" alt="Web Cuppon" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/cuppon.jpg" class="card-img-top" alt="Web Cuppon"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Cuppon</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+                            <p class="card-text">Desafio orientado a la implementacion de Bootstrap y sus componentes como grillas, tarjetas y barra de navegacion.</p>
                         </div>
                     </div>
                 </div>
@@ -122,13 +172,11 @@
                 <!--Tarjeta Suricata-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/suricata.jpg" class="card-img-top" alt="Web Suricata" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/suricata.jpg" class="card-img-top" alt="Web Suricata"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Suricata</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+                            <p class="card-text">Desafio orientado a la implementacion de Bootstrap y sus componentes como grillas, tarjetas y barra de navegacion.</p>
                         </div>
                     </div>
                 </div>
@@ -136,12 +184,11 @@
                 <!--Tarjeta Ricomida-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/ricomida.jpg" class="card-img-top" alt="Web Ricomida" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/ricomida.jpg" class="card-img-top" alt="Web Ricomida"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Ricomida</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text">Desafio orientado a Bootstrap y el carrusel, tambien la introduccion a Javascrip por medio de sus tooltip.</p>
                         </div>
                     </div>
                 </div>
@@ -149,7 +196,8 @@
                 <!--Tarjeta Olivia Ros-->
                 <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="assets/img/oliviaros.jpg" class="card-img-top" alt="Web Olovia Ros" style="border-bottom: 2px solid #9c9c9c">
+                        <img src="assets/img/oliviaros.jpg" class="card-img-top" alt="Web Olivia Ros"
+                            style="border-bottom: 2px solid #9c9c9c">
                         <div class="card-body">
                             <h5 class="card-title">Olivia Ros</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -164,7 +212,7 @@
 
     <!--Seccion 6 Contacto-->
     <section id="contacto">
-        formulario de contacto
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/hcMMx4Hq?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
     <!--Seccion 7 footer-->
@@ -173,7 +221,7 @@
         <i class="fab fa-facebook-square fa-4x mx-2"></i>
         <i class="fab fa-twitter-square fa-4x mx-2"></i>
         <i class="fab fa-linkedin fa-4x mx-2"></i>
-        <p class="h5 font-weight-bold mt-4">Daniel Canales 2020. Todos los derechos reservados.</p>
+        <p class="h5 mt-4">Daniel Canales 2020. Todos los derechos reservados.</p>
     </footer>
 
     <!--Jquery 3.5.1-->
