@@ -20,7 +20,7 @@ header h1 {
     font-family: "Anton",sans-serif;
     position: relative;
     top: 25rem;
-    left: 2rem;
+    left: 0;
     color: #ffffff;
     padding-top: 0.5rem;
 }
@@ -29,7 +29,7 @@ header h2:after {
     font-family: "Yanone",sans-serif;
     position: relative;
     top: 25rem;
-    left: 2rem;
+    left: 0;
     color: #ffffff;
     content: "YO SOY";
     display: block;
@@ -52,5 +52,18 @@ header h2:after {
     height: 11px;
     border-radius: 50%;
     background-color: #373a3c;
+}
+
+.logo_claro, .logo_telmex {
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.logo_telmex {
+width: 100%;
+}
+
+.logo_claro {
+    width: 100%;
 }
 
