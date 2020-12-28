@@ -78,10 +78,15 @@ header h3:after {
     background-color: #373a3c;
 }
 
-.logoe {
+.logoe h5 {
     font-family: "Oswald",sans-serif;
     font-weight: bold;
     font-size: 2em;
+}
+
+.logoe img {
+    width: 50%;
+    margin-bottom: 3em;
 }
 
 
