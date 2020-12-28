@@ -49,6 +49,12 @@ header h3:after {
     border-bottom: 3px solid #ffffff;
 }
 
+.linea{
+    margin:0px auto;
+    height: 0.25rem;
+    width: 8rem;
+}
+
 .card-title, .modal-title {
     font-weight: bold;
 }
