@@ -18,7 +18,6 @@ header {
 
 header h1 {
     font-family: "Oswald",sans-serif;
-    /*-webkit-text-stroke: 1px #000000;*/
     font-weight: 800;
     font-size: 4em;
     position: relative;
@@ -38,7 +37,6 @@ header h3:after {
     font-family: "Oswald",sans-serif;
     font-weight: 200;
     font-size: 2em;
-    /*-webkit-text-stroke: 1px #000000;*/
     position: relative;
     top: 25rem;
     left: 0;
@@ -51,8 +49,16 @@ header h3:after {
     border-bottom: 3px solid #ffffff;
 }
 
-.card-title {
-    font-weight: 700;
+.card-title, .modal-title {
+    font-weight: bold;
+}
+
+.card-text, .modal-body {
+    font-weight: lighter;
+}
+
+.modal-body img {
+    margin-bottom: 2em;
 }
 
 .carousel-indicators {
