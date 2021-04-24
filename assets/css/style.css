@@ -1,75 +1,105 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Open sans",sans-serif;
-}
-
-#nom {
-    font-family: "Saira Condensed",sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 3px;
-    top: -1.7rem
-}
-
-#web {
-    font-size: 0.7rem;
-    top: 0;
+    font-family: "Open sans", sans-serif;
 }
 
 .hero {
-    background-image: url('../img/bg-hero.jpg');
+    background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 25rem;
+    height: 20rem;
 }
 
-.hero h1 {
-    font-family: "Saira Condensed",sans-serif;
-    letter-spacing: 4px;
-    font-weight: 900;
-    font-size: 5rem;
-    position: relative;
-    top: 25rem;
-    left: 0;
-    color: #ffffff;
-    padding-top: 0.5rem;
+#links {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-h2 {
-    font-family: "Saira Condensed",sans-serif;
+#links a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+#logoSvg {
+    height: 6vh;
+}
+
+#avatar {
+    height: 20vh;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    top: 15rem;
+    left: 1rem;
+    position: absolute;
+}
+@media (max-width: 424px) {
+    #logoSvg {
+        height: 5vh;
+    }
+    #avatar {
+        top: 15rem;
+        left: 1rem;
+    }
+}
+
+@media (min-width: 425px) {
+    #logoSvg {
+        height: 6vh;
+    }
+    #avatar {
+        top: 15rem;
+        left: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #avatar {
+        top: 15rem;
+        left: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #avatar {
+        top: 14rem;
+        left: 3rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    #avatar {
+        top: 13rem;
+        left: 10rem;
+    }
+}
+
+
+
+.titulos {
+    font-family: "Saira Condensed", sans-serif;
     font-size: 3em;
     font-weight: 700;
 }
 
-header h3:after {
-    font-family: "Open sans",sans-serif;
-    font-weight: 200;
-    font-size: 4rem;
-    position: relative;
-    top: 25rem;
-    left: 0;
-    color: #ffffff;
-    content: "YO SOY";
-    display: block;
-    margin: 0;
-    width: 50%;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid #fff;
-}
 
-.linea{
-    margin:0px auto;
+.linea {
+    margin: 0px auto;
     height: 0.25rem;
     width: 8rem;
 }
 
-.card-title, .modal-title {
+.card-title,
+.modal-title {
     font-weight: bold;
 }
 
-.card-text, .modal-body {
+.card-text,
+.modal-body {
     font-weight: lighter;
 }
 
@@ -93,11 +123,6 @@ header h3:after {
 }
 
 footer a {
-    color: #ffffff;
+    text-decoration: none;
+    color: #9E9E9E;
 }
-
-#logoSvg {
-    width: 40%;
-}
-
-

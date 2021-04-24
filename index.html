@@ -28,7 +28,9 @@
     <!--Seccion 1 barra de navegacion-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#inicio"><img id="logoSvg" src="./assets/img/logo.svg" alt=""></a>
+            <div class="col-10 col-lg-6">
+                <a class="navbar-brand" href="#inicio"><img id="logoSvg" src="./assets/img/logo.svg" alt=""></a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,13 +57,18 @@
     <!--Seccion 2 header-->
     <header id="inicio" class="hero">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3></h3>
-                    <h1>DANIEL CANALES</h1>
-                </div>
-                <div class="col-md-6"></div>
-            </div>
+            <img id="avatar" src="./assets/img/FotoCV.jpg" alt="Avatar">
+        </div>
+        <div id="links">
+            <a href="https://github.com/mr-astro" target="_blank"><i class="fab fa-github-square fa-3x mx-2"
+                    data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left"
+                    data-content="MI GITHUB"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-canales-vallejos/" target="_blank"><i
+                    class="fab fa-linkedin fa-3x mx-2" data-container="body" data-toggle="popover" data-trigger="hover"
+                    data-placement="left" data-content="MI LINKEDIN"></i></a>
+            <a href="mailto:daniel.canales.vallejos@gmail.com" target="_blank"><i
+                    class="fas fa-envelope-square fa-3x mx-2" data-container="body" data-toggle="popover"
+                    data-trigger="hover" data-placement="left" data-content="MI CORREO"></i></a>
         </div>
     </header>
 
@@ -71,8 +78,6 @@
             <div class="pb-5">
                 <h5 class="display-5 text-center font-weight-bold text-dark mb-3 pb-3">
                     Hola, soy Daniel Canales y me encuentro en un proceso de búsqueda de oportunidades. <br>
-
-
                 </h5>
                 <div class="text-center">
                     <div class="linea bg-dark"></div>
@@ -103,81 +108,18 @@
         </div>
     </section>
 
-    <!--Seccion 4 Experiencia-->
+    <!--Seccion 4 Experiencia y Certificaciones-->
     <section id="experiencia" class="container py-5">
         <div>
-            <h2 class="display-5 text-center text-dark mb-3 py-5">MI EXPERIENCIA</h2>
+            <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">MI HABILIDADES TÉCNICAS</h2>
             <div class="text-center">
                 <div class="linea bg-dark"></div>
             </div>
         </div>
-        <div class="my-5 text-center">
-            <img id="enConstruccion" src="./assets/img/enconstruccion.gif" alt="Logo En Construccion">
-        </div>
-        <div class="row">
-            <div class="col-lg-4 text-right p-5 d-none d-lg-block">
-                <h4 class="font-weight-bold ">Mis habilidades Técnicas</h4>
-            </div>
-            <div class="col-lg-8 bg-secondary d-none d-lg-block">
-                <div id="carousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner py-3 text-center text-white">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-html5 fa-4x"></i>
-                                    <p>HTML</p>
-                                </div>
-
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-css3-alt fa-4x"></i>
-                                    <p>Css</p>
-                                </div>
-
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-js-square fa-4x"></i>
-                                    <p>javaScript</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-sass fa-4x"></i>
-                                    <p>Sass</p>
-                                </div>
-
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-bootstrap fa-4x"></i>
-                                    <p>Bootstrap</p>
-                                </div>
-
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-vuejs fa-4x"></i>
-                                    <p>VueJs</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                </div>
-
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                    <i class="fab fa-github fa-4x"></i>
-                                    <p>gitHub</p>
-                                </div>
-                                <div class="col-md-4 col-lg-4 col-xl-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div>
+            <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">MIS CERTIFICACIONES</h2>
+            <div class="text-center">
+                <div class="linea bg-dark"></div>
             </div>
         </div>
     </section>
@@ -186,7 +128,7 @@
     <main id="trabajos" class="bg-dark py-5">
         <section class="container">
             <div class="mx-5 pb-5">
-                <h2 class="display-5 text-center text-white mb-3 py-5">MIS ULTIMOS TRABAJOS</h2>
+                <h2 class="display-5 text-center text-white mb-3 py-3 titulos">MIS ULTIMOS TRABAJOS</h2>
                 <div class="text-center">
                     <div class="linea bg-white"></div>
                 </div>
@@ -471,7 +413,7 @@
     <section id="contacto">
         <div class="container py-5">
             <div class="mx-5">
-                <h2 class="display-5 text-center text-dark mb-3 py-5">CONTACTO</h2>
+                <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">CONTACTO</h2>
                 <div class="text-center">
                     <div class="linea bg-dark"></div>
                 </div>
@@ -494,9 +436,9 @@
         <a href="https://www.linkedin.com/in/daniel-canales-vallejos/" target="_blank"><i
                 class="fab fa-linkedin fa-4x mx-2" data-container="body" data-toggle="popover" data-trigger="hover"
                 data-placement="top" data-content="MI LINKEDIN"></i></a>
-        <a href="mailto:daniel.canales.vallejos@gmail.com" target="_blank"><i
-                class="fas fa-envelope-square fa-4x mx-2" data-container="body" data-toggle="popover" data-trigger="hover"
-                data-placement="top" data-content="MI CORREO"></i></a>
+        <a href="mailto:daniel.canales.vallejos@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-4x mx-2"
+                data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top"
+                data-content="MI CORREO"></i></a>
         <p class="h5 mt-4">Daniel Canales 2020. Todos los derechos reservados.</p>
     </footer>
 
