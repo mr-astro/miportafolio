@@ -29,7 +29,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
         <div class="container">
             <div class="col-10 col-lg-6">
-                <a class="navbar-brand" href="#inicio"><img id="logoSvg" src="./assets/img/logo.svg" alt=""></a>
+                <a class="navbar-brand" href="#inicio"><img id="logoSvg" src="./assets/img/logo_DAC.svg"
+                        alt="Mi logo"></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +42,7 @@
                         <a class="nav-link" href="#descripcion">Sobre mi<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                        <a class="nav-link" href="#experiencia">Conocimientos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#trabajos">Trabajos</a>
@@ -57,7 +58,7 @@
     <!--Seccion 2 header-->
     <header id="inicio" class="hero">
         <div class="container">
-            <img id="avatar" src="./assets/img/FotoCV.jpg" alt="Avatar">
+            <img id="avatar" src="./assets/img/avatar.jpg" alt="Avatar">
         </div>
         <div id="links">
             <a href="https://github.com/mr-astro" target="_blank"><i class="fab fa-github-square fa-3x mx-2"
@@ -73,15 +74,13 @@
     </header>
 
     <!--Seccion 3 Descripcion-->
-    <section id="descripcion" class="py-5">
+    <section id="descripcion" class="pt-5">
         <div class="container py-5">
-            <div class="pb-5">
-                <h5 class="display-5 text-center font-weight-bold text-dark mb-3 pb-3">
+            <div class="pb-5 text-center">
+                <h5 class="display-5 font-weight-bold text-dark mb-3 pt-3">
                     Hola, soy Daniel Canales y me encuentro en un proceso de búsqueda de oportunidades. <br>
                 </h5>
-                <div class="text-center">
-                    <div class="linea bg-dark"></div>
-                </div>
+                <div class="linea bg-dark"></div>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -109,29 +108,33 @@
     </section>
 
     <!--Seccion 4 Experiencia y Certificaciones-->
-    <section id="experiencia" class="container py-5">
-        <div>
-            <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">MI HABILIDADES TÉCNICAS</h2>
-            <div class="text-center">
-                <div class="linea bg-dark"></div>
-            </div>
+    <section id="experiencia" class="container pt-5">
+        <div class="text-center">
+            <h2 class="display-5 text-dark mb-3 pt-4 titulos">MIS HABILIDADES TÉCNICAS</h2>
+            <div class="linea bg-dark mb-3"></div>
         </div>
-        <div>
-            <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">MIS CERTIFICACIONES</h2>
-            <div class="text-center">
-                <div class="linea bg-dark"></div>
-            </div>
+        <div class="container text-center habilidades">
+            <img src="./assets/img/html5.svg" alt="logo html5">
+            <img src="./assets/img/css3.svg" alt="logo css3">
+            <img src="./assets/img/javascript.svg" alt="logo javascript">
+            <img src="./assets/img/jquery.svg" alt="logo jquery">
+            <img src="./assets/img/bootstrap.svg" alt="logo Bootstrap">
+            <img src="./assets/img/sass.svg" alt="logo sass">
+            <img src="./assets/img/vuejs.svg" alt="logo vuejs">
+            <img src="./assets/img/quasar-logo.svg" alt="logo quasar">
+        </div>
+        <div class="text-center">
+            <h2 class="display-5 text-dark mb-3 pt-4 titulos">MIS CERTIFICACIONES</h2>
+            <div class="linea bg-dark mb-3"></div>
         </div>
     </section>
 
     <!--Seccion 5 Trabajos-->
-    <main id="trabajos" class="bg-dark py-5">
-        <section class="container">
-            <div class="mx-5 pb-5">
-                <h2 class="display-5 text-center text-white mb-3 py-3 titulos">MIS ULTIMOS TRABAJOS</h2>
-                <div class="text-center">
-                    <div class="linea bg-white"></div>
-                </div>
+    <main class="bg-dark">
+        <section id="trabajos" class="container py-5">
+            <div class="text-center">
+                <h2 class="display-5 text-white mb-3 pt-4 titulos">MIS ÚLTIMOS TRABAJOS</h2>
+                <div class="linea bg-white mb-3"></div>
             </div>
             <div class="row">
 
@@ -412,11 +415,9 @@
     <!--Seccion 6 Contacto-->
     <section id="contacto">
         <div class="container py-5">
-            <div class="mx-5">
-                <h2 class="display-5 text-center text-dark mb-3 py-3 titulos">CONTACTO</h2>
-                <div class="text-center">
-                    <div class="linea bg-dark"></div>
-                </div>
+            <div class="text-center">
+                <h2 class="display-5 text-dark mb-3 pt-4 titulos">CONTACTO</h2>
+                <div class="linea bg-dark"></div>
             </div>
 
             <div class="typeform-widget" data-url="https://form.typeform.com/to/wjF4Uecn?typeform-medium=embed-snippet"
@@ -430,9 +431,6 @@
         <a href="https://github.com/mr-astro" target="_blank"><i class="fab fa-github-square fa-4x mx-2"
                 data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top"
                 data-content="MI GITHUB"></i></a>
-        <a href="https://twitter.com/Mr_AsTrO" target="_blank"><i class="fab fa-twitter-square fa-4x mx-2"
-                data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top"
-                data-content="MI TWITTER"></i></a>
         <a href="https://www.linkedin.com/in/daniel-canales-vallejos/" target="_blank"><i
                 class="fab fa-linkedin fa-4x mx-2" data-container="body" data-toggle="popover" data-trigger="hover"
                 data-placement="top" data-content="MI LINKEDIN"></i></a>
