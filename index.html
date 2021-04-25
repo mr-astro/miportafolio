@@ -227,6 +227,57 @@
                         </div>
                     </div>
                 </div>
+
+                <!--Tarjeta Rick & Morthy-->
+                <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="./assets/img/rickandmorty.jpg" class="card-img-top" alt="Web Rick and Morty"
+                            style="border-bottom: 2px solid #9c9c9c">
+                        <div class="card-body">
+                            <h5 class="card-title">Rick and Morty</h5>
+                            <p class="card-text">Desafío donde se debe crear un landing page de los personajes de la
+                                serie Rick and Morty y que consuma una API REST.
+                            </p>
+                        </div>
+                        <div class="p-2 ml-auto">
+                            <a class="btn btn-outline-info" data-toggle="modal" data-target="#rickandmorty">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Tarjeta My Store-->
+                <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="./assets/img/mystore.jpg" class="card-img-top" alt="Web My Store"
+                            style="border-bottom: 2px solid #9c9c9c">
+                        <div class="card-body">
+                            <h5 class="card-title">My Store</h5>
+                            <p class="card-text">Desafío donde se debe crear un store con un carrito de compras que
+                                permita agregar o eliminar productos.
+                            </p>
+                        </div>
+                        <div class="p-2 ml-auto">
+                            <a class="btn btn-outline-info" data-toggle="modal" data-target="#mystore">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Tarjeta CRUD-->
+                <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="./assets/img/ottoklaus.jpg" class="card-img-top" alt="Web Otto Klaus"
+                            style="border-bottom: 2px solid #9c9c9c">
+                        <div class="card-body">
+                            <h5 class="card-title">Otto Klaus</h5>
+                            <p class="card-text">Desafío donde se debe crear un CRUD que solo permita el ingreso por
+                                medio de un login de google.
+                            </p>
+                        </div>
+                        <div class="p-2 ml-auto">
+                            <a class="btn btn-outline-info" data-toggle="modal" data-target="#ottoklaus">Ver más</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -330,8 +381,7 @@
                     </div>
                     <div class="modal-footer">
                         <a href="https://mr-astro.github.io/oliviaros/" target="_blank" class="btn btn-primary">Ir a
-                            la
-                            pagina</a>
+                            la pagina</a>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -400,6 +450,119 @@
                         <a href="https://mr-astro.github.io/pokedex/" target="_blank" class="btn btn-primary">Ir a
                             la
                             pagina</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal Rick and Morty-->
+        <div class="modal fade" id="rickandmorty" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Desafio Rick and Morty</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <img class="img-fluid" src="./assets/img/Pokedex.jpg" alt="Web Pokedex">
+                        <p>Una parte muy importante del desarrollo web en la actualidad, es el consumir datos desde
+                            una API y hacer algo con esos datos. Por ende, en esta oportunidad utilizarás la siguiente
+                            URL: “https://rickandmortyapi.com/” de la serie animada para televisión “Rick and Morty”, la
+                            cual, nos devolverá la información que utilizaremos en esta prueba. Específicamente,
+                            obtendremos todos los personajes y el detalle de cada uno de ellos, desde las siguientes
+                            direcciones URL de la APIs: Personajes. El objetivo es crear una función global
+                            autoejecutable (IIFE), que realice la conexión mediante una función privada a la API, al
+                            igual que dos clases relacionadas mediante cardinalidad, que permitan crear una instancia
+                            por cada personaje que tiene la serie (recuerda que en este caso sólo serán los primeros 20
+                            personajes).
+                        </p>
+                        <div class="text-center mt-4">
+                            <img src="./assets/img/html5.svg" alt="logo html5" class="w-25">
+                            <img src="./assets/img/css3.svg" alt="logo css3" class="w-25">
+                            <img src="./assets/img/javascript.svg" alt="logo javascript" class="w-25">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://mr-astro.github.io/Rickandmorty/" target="_blank" class="btn btn-primary">Ir a
+                            la pagina</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal My store-->
+        <div class="modal fade" id="mystore" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Desafio My Store</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <img class="img-fluid" src="./assets/img/mystore.jpg" alt="Web My Store">
+                        <p>Desafío donde se debe crear un store con un carrito de compras que permita agregar o eliminar
+                            productos y que indique el total de la compra. <br>
+                            ●Validen que los campos tengan información antes del ingreso de un nuevo producto <br>
+                            ● Agregar categoría al producto <br>
+                            ● Agregar un campo color al producto <br>
+                            ● Agregar un campo de oferta booleano, en caso de ser true, se debe agregar
+                            porcentualmente cuánto debe ser el descuento de ese producto.
+                        </p>
+                        <div class="text-center mt-4">
+                            <img src="./assets/img/html5.svg" alt="logo html5" class="w-25">
+                            <img src="./assets/img/css3.svg" alt="logo css3" class="w-25">
+                            <img src="./assets/img/vuejs.svg" alt="logo vuejs" class="w-25">
+                            <img src="./assets/img/firebase.svg" alt="logo firebase" class="w-25">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://proyectocarrito2021.web.app/" target="_blank" class="btn btn-primary">Ir a
+                            la pagina</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal CRUD-->
+        <div class="modal fade" id="ottoklaus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Desafio My Store</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <img class="img-fluid" src="./assets/img/ottoklaus.jpg" alt="Web Otto Klaus">
+                        <p>Una reconocida tienda de juguetes llamados Otto Klaus le encarga el desarrollo de un
+                            sistema web de gestión de inventarios. En una primera etapa le solicitan un mantenedor de
+                            productos, el cual pueda agregar, eliminar, editar y consultar los productos que vende.
+                            Dado que los demás sistemas de la juguetería están desarrollados bajo Vue.js alojados en
+                            Firebase Hosting con bases de datos Firestore, se le solicita que el desarrollo se efectúe
+                            con estas tecnologías.
+                        </p>
+                        <div class="text-center mt-4">
+                            <img src="./assets/img/html5.svg" alt="logo html5" class="w-25">
+                            <img src="./assets/img/css3.svg" alt="logo css3" class="w-25">
+                            <img src="./assets/img/vuejs.svg" alt="logo vuejs" class="w-25">
+                            <img src="./assets/img/quasar-logo.svg" alt="logo quasar" class="w-25">
+                            <img src="./assets/img/firebase.svg" alt="logo firebase" class="w-25">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://prueba-otto-klaus-2021.web.app/" target="_blank" class="btn btn-primary">Ir a
+                            la pagina</a>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
