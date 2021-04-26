@@ -47,7 +47,7 @@ body {
 
 .titulos {
     font-family: "Saira Condensed", sans-serif;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -68,13 +68,8 @@ body {
     font-weight: bold;
 }
 
-/*.card-text,
-.modal-body {
-    font-weight: lighter;
-}*/
-
 .modal-body img {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 footer a {
