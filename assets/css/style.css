@@ -68,10 +68,10 @@ body {
     font-weight: bold;
 }
 
-.card-text,
+/*.card-text,
 .modal-body {
     font-weight: lighter;
-}
+}*/
 
 .modal-body img {
     margin-bottom: 2em;
