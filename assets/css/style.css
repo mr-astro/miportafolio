@@ -25,10 +25,6 @@ body {
     color: #9E9E9E;
 }
 
-#logoSvg {
-    height: 6vh;
-}
-
 #avatar {
     height: 20vh;
     border-radius: 50%;
@@ -79,21 +75,6 @@ body {
 
 .modal-body img {
     margin-bottom: 2em;
-}
-
-.carousel-indicators {
-    top: 100%;
-}
-
-.carousel-indicators li {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background-color: #373a3c;
-}
-
-#enConstruccion {
-    width: 30%;
 }
 
 footer a {
