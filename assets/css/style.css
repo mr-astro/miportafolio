@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open sans", sans-serif;
+    background-color: #f1efdf;
 }
 
 .hero {
@@ -75,4 +76,8 @@ body {
 footer a {
     text-decoration: none;
     color: #9E9E9E;
+}
+
+.card {
+    border: 1px solid #9E9E9E;
 }
